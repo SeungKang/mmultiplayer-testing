@@ -23,3 +23,10 @@
 ## Addons
 
 - Tag (Work In Progress)
+
+## Building from source
+To build Client and Launcher:
+- `./build.sh` - Requires DirectX June 2010, MSBuild, Visual Studio 2019 and Git Bash.
+
+To build the installer:
+- `VERSION=X.X.X ./package.sh` - Expects a version to be provided by setting an environment variable. Saves and builds artifacts to `build/`. Requires Inno Setup and Git Bash.
